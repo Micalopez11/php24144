@@ -874,3 +874,32 @@ hr{
     }
 
 }
+
+/* Estilos página Api - Rick and Morty */
+/* contenedor de cards */
+.container_api{
+    margin-top: 20vh;
+    min-height: calc(80vh - 138px);
+  }
+  /* card de personaje */
+  .card_character{
+    transform: scale(1);
+    background-color: #9f3647;
+    cursor: pointer;
+    transition: all ease-in-out 500ms;
+  }
+  .card_character:hover{
+    transform: scale(0.9);
+  }
+  
+  /* Botones next -prev card de personajes */
+  .btn_next_prev{
+    padding: 10px 20px;
+    margin: 0 20px;
+    border:2px solid #9f3647;
+    background-color: transparent;
+    color: #9f3647;
+    border-radius: 5px;
+    transition: all ease-in-out 500ms;
+  }
+  
